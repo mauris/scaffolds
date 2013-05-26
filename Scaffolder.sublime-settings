@@ -1,0 +1,27 @@
+{
+    "default_folder": "",
+    "scaffolds": [
+        {
+            "name": "Composer Library",
+            "contents": [
+                {"file":"readme.md", "url": "https://raw.github.com/thephpdeveloper/scaffolds/master/composer-lib/readme.md"},
+                {"file":"composer.json", "url": "https://raw.github.com/thephpdeveloper/scaffolds/master/composer-lib/composer.json"},
+                {"file":".travis.yml", "url": "https://raw.github.com/thephpdeveloper/scaffolds/master/composer-lib/.travis.yml"},
+                {"file":".gitignore", "url": "https://raw.github.com/thephpdeveloper/scaffolds/master/composer-lib/.gitignore"},
+                {
+                    "folder":"src",
+                    "contents": [
+                    ]
+                },
+                {
+                    "folder":"test",
+                    "contents": [
+                        {"file":"bootstrap.php", "url": "https://raw.github.com/thephpdeveloper/scaffolds/master/composer-lib/test/bootstrap.php"},
+                        {"file":"phpcs.xml", "url": "https://raw.github.com/thephpdeveloper/scaffolds/master/composer-lib/test/phpcs.xml"},
+                        {"file":"phpunit.xml.dist", "url": "https://raw.github.com/thephpdeveloper/scaffolds/master/composer-lib/test/phpunit.xml.dist"}
+                    ]
+                }
+            ]
+        }
+    ]
+}
